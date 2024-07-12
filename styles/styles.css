@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-body{
-    font-family: "Azeret Mono", monospace;  
+body {
+    font-family: "Azeret Mono", monospace;
 }
 
 /*  Header Styles */
@@ -26,7 +26,8 @@ body{
     align-items: center;
 
 }
-.banner-image{
+
+.banner-image {
     margin: 35px 600px 32px 600px;
 }
 
@@ -47,11 +48,70 @@ body{
     letter-spacing: 0%;
     text-align: center;
 }
-.banner-button{
+
+.banner-button {
     background: rgb(13, 19, 33);
     border-radius: 8px;
     color: aliceblue;
     font-size: 20px;
     padding: 10px;
-    margin: 32px 0px ;
+    margin: 32px 0px;
+}
+
+
+/* Body Styles Start Here */
+#why-section {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    align-items: center;
+    margin:0px 150px;
+    padding: 80px 97px 80px 97px;
+}
+
+.why-first-box {
+    margin: 20px;
+
+}
+
+.why-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.why-text {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.why-section-items {
+    display: flex;
+    padding: 20px;
+    gap: 100px;
+}
+
+.why-section-items-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.why-section-items-text{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
 }
