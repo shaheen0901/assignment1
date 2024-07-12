@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Developer Portfolio Assignment 1</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/ebcb454599.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,8 +22,8 @@
             <h2 class="banner-title">"In the near future, I hope to become a Developer."</h2>
             <p class="banner-text">At this moment I am taking a class with Programming Hero. I hope I will be expert in
                 web development.</p>
-
-            <button class="banner-button">contact with me</button>
+            <a href="#button"><button class="banner-button">contact with me</button></a>
+           
         </div>
 
     </header>
@@ -180,12 +181,15 @@
     </main>
 
     <!-- Support Section -->
-    <section class="support-section">
+    <section class="support-section" id="button">
         <div class="support-items">
             <h5 class="support-title">I need support</h5>
             <p class="support-text">Please extend your support to help me to learn web development</p>
-            <input type="text" name="" id="" placeholder="Please write your feedback here">
-            <input type="button" value="Submit">
+            <div class="form">
+                <input type="text" name="" id="" placeholder="Please write your feedback here">
+                <input type="button" value="Submit">
+            </div>
+
         </div>
 
     </section>
@@ -193,11 +197,12 @@
 
     <!-- This is a footer section -->
     <footer class="footer">
-        <p>This website is an assignment from the programming Hero </p>
-        <div>
-            <a href="">Fa</a>
-            <a href="">git</a>
-            <a href="">li</a>
+        <p class="footer-text">This website is an assignment from the programming Hero </p>
+        <div class="icon">
+            <a href="https://www.facebook.com/mdrahmanshaheen/" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/shaheen0901" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/msrahman9/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </footer>
 </body>
