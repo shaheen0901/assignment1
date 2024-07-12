@@ -60,21 +60,21 @@ body {
 
 
 /* Body Styles Start Here */
-#why-section {
+#section-container {
     /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: flex-start; */
     align-items: center;
-    margin:0px 150px;
+    margin: 0px 150px;
     padding: 80px 97px 80px 97px;
 }
 
-.why-first-box {
+.section-first-box {
     margin: 20px;
 
 }
 
-.why-title {
+.section-title {
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
@@ -83,7 +83,7 @@ body {
     text-align: center;
 }
 
-.why-text {
+.section-text {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -96,6 +96,7 @@ body {
     display: flex;
     padding: 20px;
     gap: 100px;
+    align-items: center;
 }
 
 .why-section-items-title {
@@ -107,11 +108,50 @@ body {
     text-align: left;
 }
 
-.why-section-items-text{
+.why-section-items-text {
     color: rgb(13, 19, 33);
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.video-box {
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 10px 0px;
+    padding: 32px;
+}
+
+.video-frame {
+    /* width=100%; */
+    /* height=auto% ; */
+    border-radius: 16px;
+}
+
+/* Current target */
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.html {
+    background-color: antiquewhite;
+    padding: 40px;
+}
+
+.css {
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.js {
+    background-color: rgba(255, 233, 0, 0.05) padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }
